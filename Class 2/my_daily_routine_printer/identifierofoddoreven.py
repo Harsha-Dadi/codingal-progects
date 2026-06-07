@@ -1,5 +1,7 @@
-number=input("enter your number")
+x=int(input("Enter a number:"))
 
-print("given number is even",number/2:)
-else
-print("given number is odd")
+if x%2==0:
+    print("Your given number is even")
+
+else:
+    print("Your given number is odd")
