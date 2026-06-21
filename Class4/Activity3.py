@@ -1,0 +1,6 @@
+print("Enter marks for Subject")
+Maths=int(input("Math:"))
+Science=int(input("Science:"))
+English=int(input("English:"))
+Pe=int(input("Pe:"))
+print("Total Pecentage",(Maths+Science+English+Pe)/4)
